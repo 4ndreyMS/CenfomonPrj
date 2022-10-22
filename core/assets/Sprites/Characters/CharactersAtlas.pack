@@ -1,0 +1,61 @@
+
+CharactersAtlas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+FemalePlayerWalkDown
+  rotate: false
+  xy: 1, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+FemalePlayerWalkLeft
+  rotate: false
+  xy: 99, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+FemalePlayerWalkRight
+  rotate: false
+  xy: 197, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+FemalePlayerWalkUp
+  rotate: false
+  xy: 295, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+MalePlayerWalkDown
+  rotate: false
+  xy: 393, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+MalePlayerWalkLeft
+  rotate: false
+  xy: 491, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+MalePlayerWalkRight
+  rotate: false
+  xy: 589, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1
+MalePlayerWalkUp
+  rotate: false
+  xy: 687, 1
+  size: 96, 32
+  orig: 96, 32
+  offset: 0, 0
+  index: -1

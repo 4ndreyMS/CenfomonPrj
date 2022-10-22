@@ -1,0 +1,13 @@
+ID_CENFOMON	NIVEL_NECESARIO	ITEM_NECESARIO	ATAQUE	ID_EVOLUCION
+Osotias	12	N/A	N/A	Kotias
+Kotias	32	N/A	N/A	Polartias
+Fenixluna	12	N/A	N/A	Salamluna
+Salamluna	32	N/A	N/A	Dragoluna
+Orucros	12	N/A	N/A	Caporucros
+Caporucros	32	N/A	N/A	Monarucros
+Corder	12	N/A	N/A	Corderion
+Pamo	15	N/A	N/A	Monan
+Monan	35	N/A	N/A	Panantel
+Yencorn	0	PIEDRA_OSCURA	N/A	Yencornio
+Elbren	0	PIEDRA_FUEGO	N/A	Elbrenum
+Baji	10	N/A	N/A	Bajife

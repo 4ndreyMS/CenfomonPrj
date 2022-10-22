@@ -1,0 +1,21 @@
+ID	NOMBRE	DESCRIPCION	VIDA_INICIAL	ATAQUE_INICIAL	DEFENSA_INICIAL	EXPERIENCIA_INICIAL	TIPOS	DEBILIDAD	IMAGEN
+1	Osotias	Dispara agua a una presion increible	40	15	17	30	AGUA	PLANTA:ELECTRICO:FANTASMA
+2	Kotias	La jaqueca le da un poder misterioso	80	12	13	22	AGUA	PLANTA:ELECTRICO:FANTASMA	
+3	Polartias	En momentos de apuro se esconde en su caparazon	200	20	10	16	AGUA	PLANTA:ELECTRICO:FANTASMA	
+4	Fenixluna	Ardiente crin que flamea	40	10	25	13	FUEGO	AGUA:ELECTRICO:FANTASMA	
+5	Salamluna	Enfrenta sin miedo a enemigos mas fuertes	80	7	15	14	FUEGO	AGUA:ELECTRICO:FANTASMA
+6	Dragoluna	Escupe fuego muy caliente	200	9	20	21	FUEGO	AGUA:ELECTRICO:FANTASMA	
+7	Orucros	Escarba en el suelo para extraer poder	40	20	26	11	PLANTA:BICHO	FUEGO:AGUA:VOLADOR	
+8	Caporucros	Libera un fetido olor	50	25	17	12	PLANTA:BICHO	FUEGO:AGUA:VOLADOR
+9	Monarucros	Grandes petalos con delicioso olor	150	6	14	16	PLANTA:BICHO	FUEGO:AGUA:VOLADOR	
+10	Corder	Propenso a morder cualquier cosa	70	12	23	18	NORMAL	PLANTA:AGUA:BICHO	
+11	Corderion	Le encanta reunir cosas brillantes	60	21	18	24	NORMAL	PLANTA:AGUA:BICHO	
+12	Pamo	Se autodestruye ante algun estimulo	100	9	27	26	ELECTRICO	PLANTA:VOLADOR:NORMAL	
+13	Monan	Genera ondas de radio para examinar	40	16	23	14	ELECTRICO:NORMAL	PLANTA:AGUA:VOLADOR:BICHO	
+14	Panantel	se desploma cuando su suministro electrico se agota	65	11	18	17	ELECTRICO:VOLADOR	PLANTA:AGUA:FUEGO:NORMAL:FANTASMA	
+15	Yencorn	Su lengua esta hecha de gas.	55	14	22	22	FANTASMA	ELECTRICO:BICHO:FANTASMA
+16	Yencornio	Le gusta molestar con los miedos de las personas	75	13	14	24	FANTASMA	ELECTRICO:BICHO:FANTASMA	
+17	Ebren	Sus grandes garras son armas muy peligrosas	60	10	16	18	VOLADOR	AGUA:FUEGO:FANTASMA	
+18	Ebrenum	Sus alas se convierten en llamas al batirse	150	23	14	19	VOLADOR:FUEGO	AGUA:FUEGO:ELECTRICO:FANTASMA	
+19	Baji	Despide un hedor horrible por las antenas 	50	24	21	14	BICHO	AGUA:FUEGO:VOLADOR	
+20	Bajife	Se alimenta de hojas oculto en la espesura de bosques	65	16	18	13	BICHO	AGUA:FUEGO:VOLADOR	

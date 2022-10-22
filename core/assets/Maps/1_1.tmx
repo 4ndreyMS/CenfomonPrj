@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="46" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="80">
+ <tileset firstgid="1" source="MarioBrosTileSet.tsx"/>
+ <tileset firstgid="129" name="B-C-D-E_Serene_Village_03" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="784" columns="28">
+  <image source="B-C-D-E_Serene_Village_03.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="913" name="B-C-D-E_Serene_Village_01" tilewidth="16" tileheight="16" spacing="2" margin="1" tilecount="784" columns="28">
+  <image source="B-C-D-E_Serene_Village_01.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="background" width="46" height="18">
+  <data encoding="base64" compression="zlib">
+   eJx7x8wABsosxGMVIF4K1HcTit+RgW9SiEFmgNxiTySGuRsEyHEvNTGyexyQMDYxeyg90G5+h5ROVNDSgz2SW5GxAzSdwPRvpBImx9343AijbwPV3gHiu8yDx90wgE/+O5D9A4h/MqOqJddeXJiRjbrpSRgY5iJALIqWvqnpbpCbqe1ubHEKsoPa4U0MfkEDd+MDg83dx1lG3T2c3U2tsnc4uBtf/AxEOgHhyWh8Flba1IXUdjcyvjnA7p48iumGAbu9anE=
+  </data>
+ </layer>
+ <layer id="2" name="graphics" width="46" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzV1klOwlAcgPEXbNcKhoKnIDEOgCvWJEacuIQDwyWU8QiwwPkIulAROIImiPEOmpC44mvogjTSWOiz7T/55bWL9n1tumhjQYgm7E5UEeIdAxfWD9zT/DBj94pi/zon5od9X2l+M7qDNq51s1tThfii+dtn71vvXmTvpRn2d7u7b3QHEYKGiDLumjw2P5vs7oyxpqZ0D/+4d/Sfu63GTreXRu9eVp2/71pAiHVsYBNxJJDEVmD++8vq3qEtg13sYR8HOETWw91HtB3jBKfIIY8Cih7uPqPtHCWUUUEVNdQd6g5L6G7RdoFLXOEaN7jFnan7U7E+/200Cc36PNL2hGe08YIOuuh5+DuRPX7ujvmwe5XmtOrOv/886zbNI4uHbC4=
+  </data>
+ </layer>
+ <objectgroup color="#1aad00" id="3" name="ground">
+  <object id="9" x="0" y="271.333" width="734" height="16"/>
+  <object id="25" x="-32" y="48" width="32" height="208"/>
+  <object id="46" x="0" y="0" width="718.667" height="16"/>
+  <object id="51" x="719.167" y="-0.833333" width="16" height="270"/>
+  <object id="52" x="0" y="16.5" width="15.5" height="79"/>
+  <object id="53" x="0" y="129.5" width="15.5" height="62"/>
+  <object id="54" x="1" y="225.5" width="14.5" height="46"/>
+  <object id="57" x="224" y="16.5" width="16" height="95"/>
+  <object id="59" x="16" y="79.5" width="161" height="16"/>
+  <object id="60" x="159.5" y="96.5" width="17.3333" height="16"/>
+  <object id="61" x="336" y="129.333" width="112.667" height="39.3333"/>
+  <object id="68" x="343.273" y="168.727" width="31.6364" height="28.3636"/>
+  <object id="71" x="415.636" y="168.909" width="30.5455" height="28"/>
+ </objectgroup>
+ <objectgroup id="4" name="pipes"/>
+ <objectgroup id="5" name="coins"/>
+ <objectgroup id="6" name="bricks"/>
+ <objectgroup id="7" name="goombas">
+  <object id="32" x="512" y="192" width="16" height="16">
+   <properties>
+    <property name="Att" value="segundo"/>
+   </properties>
+  </object>
+  <object id="33" x="576" y="192" width="16" height="16">
+   <properties>
+    <property name="Att" value="tercero"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0310" id="9" name="interactables">
+  <object id="36" x="47.3333" y="32" width="30.6667" height="31.3333">
+   <properties>
+    <property name="dialogue_id" value="level_1_star_dialogue"/>
+    <property name="interactable_type" value="DIALOGUE"/>
+    <property name="requires_input" type="bool" value="false"/>
+    <property name="unique_id" value="level_1_star"/>
+   </properties>
+  </object>
+  <object id="42" x="0" y="98" width="16" height="32">
+   <properties>
+    <property name="interactable_type" value="PORTAL"/>
+    <property name="requires_input" type="bool" value="false"/>
+    <property name="unique_id" value="level_1_left_down"/>
+   </properties>
+  </object>
+  <object id="43" x="383.23" y="176.491" width="22.8047" height="22.546" rotation="359.514">
+   <properties>
+    <property name="interactable_type" value="PORTAL"/>
+    <property name="requires_input" type="bool" value="false"/>
+    <property name="unique_id" value="level_1_left_up"/>
+   </properties>
+  </object>
+  <object id="39" x="608" y="80" width="16" height="16">
+   <properties>
+    <property name="dialogue_id" value="level_1_cloud_dialogue"/>
+    <property name="interactable_type" value="DIALOGUE"/>
+    <property name="requires_input" type="bool" value="true"/>
+    <property name="unique_id" value="level_1_cloud"/>
+   </properties>
+  </object>
+  <object id="40" x="640" y="80" width="16" height="16">
+   <properties>
+    <property name="dialogue_id" value="level_1_axe_dialogue"/>
+    <property name="interactable_type" value="DIALOGUE"/>
+    <property name="requires_input" type="bool" value="false"/>
+    <property name="unique_id" value="level_1_axe"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,148 @@
+{
+    "level_1_star_dialogue": [
+        {
+            "id": 0,
+            "content": "Vamos a hacerte unas preguntas",
+            "pointer": 1
+        },
+        {
+            "id": 1,
+            "content": "Prefieres el verano o el invierno?",
+            "choices": [
+                {
+                    "pointer_id":  2,
+                    "option": "Verano",
+                    "option_id": 2,
+                    "points": 4
+                },
+                {
+                    "pointer_id": 3,
+                    "option": "Invierno",
+                    "option_id": 2,
+                    "points": 8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "content": "Como prefieres pasar un dia de vacaciones?",
+            "choices": [
+                {
+                    "pointer_id":  2,
+                    "option": "Viendo peliculas",
+                    "option_id": 3,
+                    "points": 4
+                },
+                {
+                    "pointer_id": 3,
+                    "option": "Afuera con amigos",
+                    "option_id": 3,
+                    "points": 8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "content": "Ok, vamos a pensar en cual cenfomon te daremos"
+        }
+    ],
+    "osotias_delivery": [
+        {
+            "id": 0,
+            "content": "te llevaras muy bien con Osotias",
+            "pointer": 1
+        },
+        {
+            "id": 1,
+            "content": "Has recibido al cenfomon Osotias",
+            "pointer": 2
+        },
+        {
+            "id": 2,
+            "content": "¡Cuida muy bien de Osotias!"
+        }
+    ],
+    "fenixluna_delivery": [
+        {
+            "id": 0,
+            "content": "te llevaras muy bien con Fenixluna",
+            "pointer": 1
+        },
+        {
+            "id": 1,
+            "content": "Has recibido al cenfomon FenixLuna",
+            "pointer": 2
+        },
+        {
+            "id": 2,
+            "content": "¡Cuida muy bien de FenixLuna!"
+        }
+    ],
+    "orucros_delivery": [
+        {
+            "id": 0,
+            "content": "te llevaras muy bien con Orucros",
+            "pointer": 1
+        },
+        {
+            "id": 1,
+            "content": "Has recibido al cenfomon Orucros",
+            "pointer": 2
+        },
+        {
+            "id": 2,
+            "content": "Cuida muy bien de Orucros!"
+        }
+    ],
+
+    "pharmacy_diaglogue": [
+        {
+            "id": 0,
+            "content": "Welcome to the Cenfomon's pharmacy",
+            "pointer": 1
+        },
+        {
+            "id": 1,
+            "content": "Choose an option",
+            "choices": [
+                {
+                    "points": 1,
+                    "option": "Increase the health ",
+                    "option_id": 2
+                },
+                {
+                    "points": 2,
+                    "option": "Increase the XP",
+                    "option_id": 3
+                },
+
+                {
+                    "points": 3,
+                    "option": "Increase the power attack",
+                    "option_id": 4
+                },
+                {
+                    "points": 4,
+                    "option": "Increase the deffence power",
+                    "option_id": 5
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "content": "Your cenfomon's health has increased"
+        },
+        {
+            "id": 3,
+            "content": "Your cenfomon's XP has increased"
+        },
+        {
+            "id": 4,
+            "content": "Your cenfomon's power attack has increased"
+        },
+        {
+            "id": 5,
+            "content": "Your cenfomon's defence power has increased"
+        }
+    ]
+}

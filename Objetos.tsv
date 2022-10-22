@@ -1,0 +1,8 @@
+ID	NOMBRE	PRECIO	DESCRIPCION	EFECTO	PORCENTAJE_SALUD
+1	Poción	20	La poción más básica para recuperar la salud de nuestros compañeros. Recupera el 20% de la salud	SANAR	20
+2	Poción mediana	80	Una poción superior que llega a recuperar el 45% de la salud del cenfomon en que se use	SANAR	45
+3	Poción máxima	140	Una poción superior que llega a recuperar el 100% de la salud del cenfomon en que se use	SANAR	100
+4	Revivir	500	Se usa cuando un compañero está fuera de combate. Esta poción especial recupera a nuestro compañero con un 15% de su salud	REVIVIR	15
+5	Piedra de fuego	0	Piedra volcánica de color rojo, al entregársela a algunos cenfomones permiten por medio de una fusión su metamorfósis	METAMORFOSIS	0
+6	Piedra oscura	0	Piedra de color negro brillante proveniente de lo más profundo de la tierra; al entregársela a algunos cenfomones permiten por medio de una fusión su metamorfósis	METAMORFOSIS	0
+7	Cristal cuántico	150	Cristal misterioso que permite realizar una fusión con el alma de un cenfomón al entrar en contacto con el mismo	ATRAPAR	100
